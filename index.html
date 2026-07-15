@@ -1,250 +1,244 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy – Fit Fuel</title>
-<style>
-  :root {
-    --primary: #00C896;
-    --bg: #0A0F1E;
-    --surface: #111827;
-    --border: #1E293B;
-    --text: #F8FAFC;
-    --muted: #94A3B8;
-    --accent: #6C63FF;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 15px;
-    line-height: 1.7;
-  }
-  header {
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 0;
-  }
-  .header-inner {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 24px;
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-  .logo {
-    width: 44px; height: 44px;
-    background: linear-gradient(135deg, #00C896, #6C63FF);
-    border-radius: 12px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 22px;
-  }
-  .app-name { font-size: 20px; font-weight: 700; }
-  .app-sub  { font-size: 12px; color: var(--muted); }
-  main {
-    max-width: 760px;
-    margin: 48px auto;
-    padding: 0 24px 80px;
-  }
-  h1 { font-size: 28px; font-weight: 800; margin-bottom: 6px; }
-  .meta { color: var(--muted); font-size: 13px; margin-bottom: 40px; }
-  h2 {
-    font-size: 17px; font-weight: 700;
-    color: var(--primary);
-    margin: 36px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--border);
-  }
-  p  { color: #CBD5E1; margin-bottom: 14px; }
-  ul { color: #CBD5E1; padding-left: 20px; margin-bottom: 14px; }
-  li { margin-bottom: 6px; }
-  a  { color: var(--primary); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .badge {
-    display: inline-block;
-    background: rgba(0,200,150,.12);
-    color: var(--primary);
-    border: 1px solid rgba(0,200,150,.25);
-    border-radius: 6px;
-    font-size: 12px; font-weight: 600;
-    padding: 2px 10px;
-    margin-bottom: 24px;
-  }
-  .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 20px 24px;
-    margin: 20px 0;
-  }
-  .card p { margin: 0; }
-  footer {
-    text-align: center;
-    color: var(--muted);
-    font-size: 12px;
-    border-top: 1px solid var(--border);
-    padding: 24px;
-    margin-top: 60px;
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | Fridge File</title>
+  <meta name="description" content="Privacy Policy for the Fridge File mobile app.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #dbe3ef;
+      --brand: #16a34a;
+      --brand-dark: #166534;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: clamp(24px, 5vw, 48px);
+      box-shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      color: var(--brand-dark);
+    }
+
+    h2 {
+      margin-top: 34px;
+      font-size: 1.25rem;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--brand-dark);
+      font-weight: 700;
+    }
+
+    .meta {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .notice {
+      padding: 14px 16px;
+      border-left: 4px solid var(--brand);
+      background: #ecfdf5;
+      border-radius: 10px;
+      color: #14532d;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Fridge File | Last updated: July 15, 2026</p>
 
-<header>
-  <div class="header-inner">
-    <div class="logo">💪</div>
-    <div>
-      <div class="app-name">Fit Fuel</div>
-      <div class="app-sub">Smart Fitness & Nutrition Tracker</div>
-    </div>
-  </div>
-</header>
-
-<main>
-  <h1>Privacy Policy</h1>
-  <p class="meta">Effective date: June 1, 2025 &nbsp;·&nbsp; Last updated: June 1, 2025</p>
-  <span class="badge">📱 Mobile App</span>
-
-  <p>
-    This Privacy Policy describes how <strong>Fit Fuel</strong> ("we", "our", or "us")
-    handles your information when you use our mobile application. We are committed to
-    protecting your privacy and being transparent about our data practices.
-  </p>
-
-  <!-- 1 -->
-  <h2>1. Information We Collect</h2>
-  <p>Fit Fuel is designed as a <strong>local-first application</strong>. The vast majority
-  of your data never leaves your device.</p>
-  <p><strong>Data stored only on your device:</strong></p>
-  <ul>
-    <li>Calorie logs and food entries (name, calories, macros, meal type, timestamp)</li>
-    <li>Water intake logs (amount in ml, timestamp)</li>
-    <li>Workout sessions (name, type, duration, sets/reps, calories burned, timestamp)</li>
-    <li>Weight entries (weight in kg, optional note, timestamp)</li>
-    <li>App preferences (theme mode, daily goals, reminder settings)</li>
-  </ul>
-  <p><strong>Data used for AI Diet Plan generation (optional feature):</strong></p>
-  <ul>
-    <li>Age, weight, height, gender, fitness goal, and activity level — entered
-        voluntarily by you when you request a diet plan. This data is processed
-        <em>on-device</em> using a local calculation engine (Mifflin-St Jeor formula)
-        and is <strong>not transmitted to any server</strong>.</li>
-  </ul>
-
-  <!-- 2 -->
-  <h2>2. Data We Do Not Collect</h2>
-  <p>We do not collect, store, or transmit:</p>
-  <ul>
-    <li>Your name, email address, or any account credentials</li>
-    <li>Location data or GPS coordinates</li>
-    <li>Device identifiers, advertising IDs, or fingerprints</li>
-    <li>Contacts, photos, or any other media</li>
-    <li>Health data from Apple Health or Google Fit (no integration exists)</li>
-    <li>Crash reports or analytics telemetry</li>
-    <li>Payment or financial information</li>
-  </ul>
-
-  <!-- 3 -->
-  <h2>3. How We Use Your Information</h2>
-  <p>All data processing happens locally on your device to provide the following features:</p>
-  <ul>
-    <li>Displaying your daily calorie, water, and workout summaries</li>
-    <li>Generating your weight-progress chart</li>
-    <li>Calculating a personalized diet plan using your body metrics</li>
-    <li>Sending local push notifications for water reminders (using
-        <code>flutter_local_notifications</code> — no server involved)</li>
-    <li>Persisting your preferences (theme, goals) across app sessions</li>
-  </ul>
-
-  <!-- 4 -->
-  <h2>4. Local Notifications</h2>
-  <p>
-    Fit Fuel AI may request permission to send you <strong>local notifications</strong> to
-    remind you to drink water. These notifications are scheduled entirely on-device by the
-    <code>flutter_local_notifications</code> package. No notification content is ever sent
-    to or from a remote server.
-  </p>
-  <p>You can disable notifications at any time in your device's system settings.</p>
-
-  <!-- 5 -->
-  <h2>5. Data Storage & Security</h2>
-  <p>
-    Your fitness data is stored using <strong>Hive</strong>, an encrypted local database
-    on your device. App preferences are stored using
-    <strong>SharedPreferences</strong>. Neither storage mechanism sends data off-device.
-  </p>
-  <p>
-    Data security depends on your device's built-in security measures (screen lock,
-    encryption). We recommend keeping your device up-to-date and protected with a PIN
-    or biometric lock.
-  </p>
-
-  <!-- 6 -->
-  <h2>6. Third-Party Services</h2>
-  <p>
-    Fit Fuel does not currently integrate any third-party analytics, advertising, or
-    crash-reporting SDKs. The only external resources loaded at runtime are
-    <strong>Google Fonts</strong> (typography), which may result in a network request to
-    Google's CDN on first launch to download the font files. After initial download,
-    fonts are cached locally. For details on Google's data practices, see
-    <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
-  </p>
-
-  <!-- 7 -->
-  <h2>7. Children's Privacy</h2>
-  <p>
-    Fit Fuel is not directed at children under the age of 13 (or 16 in the European
-    Economic Area). We do not knowingly collect personal information from children.
-    If you believe a child has provided us with personal data, please contact us and
-    we will take steps to delete that information.
-  </p>
-
-  <!-- 8 -->
-  <h2>8. Your Rights</h2>
-  <p>Because all data is stored locally on your device, you have full control:</p>
-  <ul>
-    <li><strong>Access:</strong> All your data is visible within the app at all times.</li>
-    <li><strong>Deletion:</strong> Uninstalling the app permanently deletes all locally
-        stored data. Individual entries can also be deleted inside the app.</li>
-    <li><strong>Portability:</strong> No data export feature is currently offered, as
-        no data is stored on our servers.</li>
-  </ul>
-  <p>
-    If you are a resident of the European Economic Area (EEA) or California and believe
-    you have additional rights under GDPR or CCPA, please contact us. Given that we
-    collect no personal data on our servers, most regulatory obligations do not apply,
-    but we are happy to assist with any questions.
-  </p>
-
-  <!-- 9 -->
-  <h2>9. Changes to This Policy</h2>
-  <p>
-    We may update this Privacy Policy from time to time. When we do, we will update the
-    "Last updated" date at the top of this page. For significant changes, we will post
-    a notice within the app. Continued use of Fit Fuel after changes are posted
-    constitutes your acceptance of the updated policy.
-  </p>
-
-  <!-- 10 -->
-  <h2>10. Contact Us</h2>
-  <div class="card">
-    <p>
-      If you have any questions, concerns, or requests regarding this Privacy Policy,
-      please contact us at:<br><br>
-      📧 <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a><br>
+    <p class="notice">
+      Fridge File is designed as an offline-first food inventory app. Your food
+      items, notes, expiry dates, and photos are stored on your device unless a
+      feature described below requires a third-party service.
     </p>
-  </div>
 
-</main>
+    <h2>1. Who We Are</h2>
+    <p>
+      This Privacy Policy applies to the Fridge File mobile application
+      ("Fridge File", "the app", "we", "our", or "us").
+    </p>
+    <p>
+      Privacy contact: <strong>replace-with-your-support-email@example.com</strong>
+    </p>
 
-<footer>
-  &copy; 2026 Fit Fuel. All rights reserved.
-  &nbsp;·&nbsp;
-  <a href="#">Back to top ↑</a>
-</footer>
+    <h2>2. Information You Provide or Store in the App</h2>
+    <p>Fridge File lets you save food inventory information, including:</p>
+    <ul>
+      <li>Food item names, categories, storage locations, notes, and expiry dates.</li>
+      <li>Food item photos you choose to capture or select from your device.</li>
+      <li>App settings such as theme, notification preferences, and reminder settings.</li>
+      <li>Consumed, wasted, or deleted item history used to show app statistics.</li>
+    </ul>
+    <p>
+      This information is stored locally on your device. We do not operate a
+      user account system or cloud sync server for this app.
+    </p>
 
+    <h2>3. Permissions Used by the App</h2>
+    <ul>
+      <li><strong>Camera:</strong> used only when you choose to take a food item photo.</li>
+      <li><strong>Photos or media library:</strong> used only when you choose an existing food item photo.</li>
+      <li><strong>Notifications:</strong> used to send expiry, hydration, and fridge reminder alerts.</li>
+      <li><strong>Internet and network state:</strong> used to load ads through Google AdMob.</li>
+    </ul>
+    <p>
+      You can deny or revoke permissions through your device settings. Some
+      features may not work without the related permission.
+    </p>
+
+    <h2>4. Advertising and Third-Party Services</h2>
+    <p>
+      Fridge File is ad-supported and uses Google AdMob to show app open,
+      banner, interstitial, and native ads. Google AdMob may collect or receive
+      information from your device, such as device identifiers, advertising ID,
+      IP address, app interaction data, diagnostics, and ad interaction data, in
+      order to provide, limit, measure, and personalize ads.
+    </p>
+    <p>
+      Google may process this information according to its own privacy policies
+      and advertising technologies. You can learn more here:
+    </p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use its services</a></li>
+      <li><a href="https://support.google.com/admob/answer/6128543" rel="noopener">Google AdMob policies and restrictions</a></li>
+    </ul>
+    <p>
+      You can control ad personalization through your device settings, Google
+      account ad settings, and any consent or privacy prompts shown in the app
+      where required by law.
+    </p>
+
+    <h2>5. How We Use Information</h2>
+    <p>Information stored in Fridge File is used to:</p>
+    <ul>
+      <li>Track your food inventory and expiry dates.</li>
+      <li>Show reminders and notifications you enable.</li>
+      <li>Display usage statistics such as consumed and wasted items.</li>
+      <li>Support app functionality, reliability, and ad-supported availability.</li>
+    </ul>
+
+    <h2>6. Sharing of Information</h2>
+    <p>
+      We do not sell your food inventory data. We do not share your locally
+      stored food items, notes, or photos with our own server because the app
+      does not use an account or cloud sync system.
+    </p>
+    <p>
+      Information may be shared with third parties only in these situations:
+    </p>
+    <ul>
+      <li>With Google AdMob and related Google services for advertising, measurement, fraud prevention, and compliance.</li>
+      <li>If you contact us for support and choose to share information with us.</li>
+      <li>If required to comply with applicable law, regulation, legal process, or enforceable governmental request.</li>
+    </ul>
+
+    <h2>7. Data Retention and Deletion</h2>
+    <p>
+      Food inventory data and photos remain on your device until you delete the
+      item, remove the photo, clear app data, or uninstall the app. Notification
+      reminders remain scheduled until they fire, are canceled by the app, or
+      are removed by the operating system.
+    </p>
+    <p>
+      Because Fridge File does not currently provide user accounts or cloud
+      storage, deleting the app or clearing its local data removes the app data
+      stored on your device. Data processed by Google AdMob is handled according
+      to Google's policies and retention practices.
+    </p>
+
+    <h2>8. Security</h2>
+    <p>
+      Fridge File stores app data locally using platform storage. No method of
+      storage or transmission is completely secure, but the app is designed to
+      limit data collection and avoid sending your food inventory to our own
+      servers.
+    </p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>
+      Fridge File is not directed to children under 13. We do not knowingly
+      collect personal information from children. If you believe a child has
+      provided personal information, contact us so we can take appropriate
+      action.
+    </p>
+
+    <h2>10. Your Choices</h2>
+    <ul>
+      <li>You can delete food items, notes, and photos inside the app.</li>
+      <li>You can clear all local app data or uninstall the app from your device settings.</li>
+      <li>You can turn notifications, camera access, and photo access on or off in device settings.</li>
+      <li>You can manage ad personalization through Android, Google, or regional consent settings where available.</li>
+    </ul>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. When we make changes,
+      we will update the "Last updated" date above. Continued use of the app
+      after an update means you accept the revised policy.
+    </p>
+
+    <h2>12. Contact Us</h2>
+    <p>
+      For privacy questions, requests, or concerns, contact us at:
+      <strong>shuvo4727@gmail.com</strong>.
+    </p>
+
+    <footer>
+      This page is provided for Fridge File and should be hosted at a public,
+      non-PDF URL for app store and ad platform review.
+    </footer>
+  </main>
 </body>
 </html>
